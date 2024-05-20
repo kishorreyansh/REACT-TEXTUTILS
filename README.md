@@ -72,17 +72,17 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ## Hosting React App on Github Pages
 https://create-react-app.dev/docs/deployment/#github-pages
 
-#Steps:
-Go to package.json
+## Steps:
+# Go to package.json
     "homepage": "https://kishorreyansh.github.io/REACT-TEXTUTILS"
-npm install --save gh-pages
-Add the following scripts in your package.json:
+# npm install --save gh-pages
+# Add the following scripts in your package.json:
     "scripts": {
    "predeploy": "npm run build",
    "deploy": "gh-pages -d build"
     }
-Deploy the site by running npm run deploy
-Then run: npm run deploy
-Visit github repository - setting - pages
+# Deploy the site by running npm run deploy
+# Then run: npm run deploy
+# Visit github repository - setting - pages
 
 
